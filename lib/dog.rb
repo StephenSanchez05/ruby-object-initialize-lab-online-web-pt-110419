@@ -1,2 +1,7 @@
 class Dog 
-  def initialize() 
+  def self.define_properties(props)
+    props.each do |prop|
+      define_me
+    end
+  end
+  self.define_properties([:name, :breed])
