@@ -1,9 +1,8 @@
 require 'pry'
 
 class Dog 
-  def initialize(name, bread)
+  def initialize(name, bread = "Mutt")
     @name = name
-    @breed = "Mutt"
     @breed = bread
   end
 end
